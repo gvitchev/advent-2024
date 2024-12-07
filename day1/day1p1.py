@@ -20,6 +20,6 @@ def solve(input):
 
 if __name__ == "__main__":
     print(solve(SAMPLE))
-    file = open("input1.txt", "r")
+    file = open("input.txt", "r")
     content = file.read()
     print(solve(content))
